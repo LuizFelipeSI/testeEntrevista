@@ -1,0 +1,32 @@
+package testejava;
+
+import java.io.*;
+import javax.swing.JOptionPane;
+
+
+public class Teste
+ {
+ 
+ //O CONSTRUCTOR TEM O MESMO NOME DA CLASSE
+ 
+ public Teste()
+ {
+ System.out.println(“Im am a constructor”);
+
+ }
+ private void runza()
+ {
+ String str = JOptionPane.showInputDialog(“What’s your name”);
+ JOptionPane.showMessageDialog(null, “Your name is:” + str);
+ }
+
+ public static void main(String args[])
+ {
+ Teste tst = new Teste();
+
+ }
+}
+
+
+
+//VER LINHA 10
