@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
 public class Teste
  {
  
- //O CONSTRUCTOR TEM O MESMO NOME DA CLASSE
+ //O CONSTRUCTOR TEM O MESMO NOME DA CLASSE, E NAO TEM NEM MESMO UM VOID
  
  public Teste()
  {
